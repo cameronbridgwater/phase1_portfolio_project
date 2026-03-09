@@ -93,7 +93,7 @@ head data/raw_facebook_data.csv
     - 3-Table2-1.png
     - 4-Table3-1.png
     - explore_pairplot.png
-    - README.md`
+    - README.md
 
 
 ## 🛠️ Tech Stack
