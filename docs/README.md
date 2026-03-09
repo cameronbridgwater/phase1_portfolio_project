@@ -1,4 +1,4 @@
-# Facebook Post Interaction Predictor
+# Facebook Post Interaction
 
 Analyzes Facebook post metrics to predict Total Interactions (likes + comments + shares) using Linear, Ridge, and Lasso regression models. **Best performing model: Lasso (R² = 0.49 log data, 0.95 original)**.
 
@@ -59,26 +59,9 @@ These files represent the main stages of data preparation used for the analysis 
 | **Post Month** | **-7.9** | ⏰ Earlier months slightly better |
 | **Post Hour** | **-1.7** | ⏰ Earlier hours slightly better |
 
-
-## 🚀 Quick Start
-
-# Clone repo
-git clone https://github.com/yourusername/facebook-post-predictor.git
-cd facebook-post-predictor
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run analysis notebooks
-jupyter notebook explore.ipynb
-jupyter notebook model.ipynb
-
-# View data files
-head data/raw_facebook_data.csv
-
 ## 📁 Project Structure
 
-- **facebook-post-predictor/**
+- **facebook-post-interactions/**
   - **code/**
     - `explore.ipynb` — EDA & visualizations  
     - `transform.ipynb` — Data cleaning & log transform  
