@@ -1,8 +1,6 @@
 # Facebook Post Interaction Predictor
 
-Analyzes Facebook post metrics to predict Total Interactions (likes + comments + shares) using Ridge and Lasso regression models. **Best performing model: Lasso (R² = 0.49 log data, 0.95 original)**.
-
-[![Model Performance](model_performance.png)](model_performance.png)
+Analyzes Facebook post metrics to predict Total Interactions (likes + comments + shares) using Linear, Ridge, and Lasso regression models. **Best performing model: Lasso (R² = 0.49 log data, 0.95 original)**.
 
 ## 🎯 Project Overview
 
@@ -19,9 +17,13 @@ Built regression models to understand which Facebook post features drive engagem
 **Target**: `Total Interactions` = likes + comments + shares
 
 ### 📁 Dataset Files
-├── raw_facebook_data.csv # Original imported data
-├── original_cleaned_facebook_data.csv # Cleaned (no log transform)
-└── log_cleaned_facebook_data.csv # Cleaned + log transformation applied
+
+- **raw_facebook_data.csv** — Original imported dataset.  
+- **original_cleaned_facebook_data.csv** — Cleaned dataset (no log transformation).  
+- **log_cleaned_facebook_data.csv** — Cleaned dataset with log transformation applied.  
+
+These files represent the main stages of data preparation used for the analysis and visualizations in this project.
+
 
 ### 🎯 Key Features (Top Impact)
 | Feature | Data Type | Description | Model Coefficient |
@@ -76,17 +78,23 @@ head data/raw_facebook_data.csv
 
 ## 📁 Project Structure
 
-facebook-post-predictor/
-├── data/
-│   ├── raw_facebook_data.csv
-│   ├── original_cleaned_facebook_data.csv
-│   └── log_cleaned_facebook_data.csv
-├── notebooks/
-│   ├── explore.ipynb          # EDA & visualizations
-│   ├── transform.ipynb        # Data cleaning & log transform
-│   └── model.ipynb            # Ridge/Lasso modeling
-├── README.md
-└── requirements.txt
+### 📁 Project Structure
+
+- **facebook-post-predictor/**
+  - **code/**
+    - `explore.ipynb` — EDA & visualizations  
+    - `transform.ipynb` — Data cleaning & log transform  
+    - `model.ipynb` — Ridge/Lasso modeling  
+  - **data/**
+    - `raw_facebook_data.csv`
+    - `original_cleaned_facebook_data.csv`
+    - `log_cleaned_facebook_data.csv`
+  - - **docs**
+    - 3-Table2-1.png
+    - 4-Table3-1.png
+    - explore_pairplot.png
+    - README.md`
+
 
 ## 🛠️ Tech Stack
 pandas           # Data manipulation
