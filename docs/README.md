@@ -70,7 +70,7 @@ These files represent the main stages of data preparation used for the analysis 
     - `raw_facebook_data.csv`
     - `original_cleaned_facebook_data.csv`
     - `log_cleaned_facebook_data.csv`
-  - - **docs**
+  - **docs**
     - 3-Table2-1.png
     - 4-Table3-1.png
     - explore_pairplot.png
