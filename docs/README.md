@@ -78,8 +78,6 @@ head data/raw_facebook_data.csv
 
 ## 📁 Project Structure
 
-### 📁 Project Structure
-
 - **facebook-post-predictor/**
   - **code/**
     - `explore.ipynb` — EDA & visualizations  
@@ -97,20 +95,22 @@ head data/raw_facebook_data.csv
 
 
 ## 🛠️ Tech Stack
-pandas           # Data manipulation
-scikit-learn     # Ridge/Lasso regression
-seaborn          # Visualizations
-matplotlib       # Charts
-numpy            # Log transformations
-jupyter          # EDA notebooks
 
-## 📋 Requirements
-pandas>=1.5.0
-scikit-learn>=1.2.0
-seaborn>=0.12.0
-matplotlib>=3.6.0
-numpy>=1.24.0
-jupyter>=1.0.0
+- **pandas** — Data manipulation  
+- **scikit-learn** — Ridge/Lasso regression  
+- **seaborn** — Visualizations  
+- **matplotlib** — Charts  
+- **numpy** — Log transformations  
+- **jupyter** — EDA notebooks
+
+### 📦 Requirements
+
+- **pandas>=1.5.0**  
+- **scikit-learn>=1.2.0**  
+- **seaborn>=0.12.0**  
+- **matplotlib>=3.6.0**  
+- **numpy>=1.24.0**  
+- **jupyter>=1.0.0**
 
 ## 🎯 Business Recommendations
 
